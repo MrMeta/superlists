@@ -1,6 +1,6 @@
-from .base import FuntionalTest
+from .base import FunctionalTest
 
-class LayoutAndStylingTest(FuntionalTest):
+class LayoutAndStylingTest(FunctionalTest):
 
     def test_layout_and_styling(self):
         # 에디스는 메인 페이지를 방문한다.

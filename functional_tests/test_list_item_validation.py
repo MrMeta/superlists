@@ -1,7 +1,7 @@
 from unittest import skip
-from .base import FuntionalTest
+from .base import FunctionalTest
 
-class ItemValidationTest(FuntionalTest):
+class ItemValidationTest(FunctionalTest):
 
     def get_error_element(self):
         return self.browser.find_element_by_css_selector('.has-error')
